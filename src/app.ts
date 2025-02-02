@@ -10,7 +10,7 @@ dotenv.config();
 // Import routes
 import authRoutes from './routes/authRoutes';
 import subscriptionRoutes from './routes/subscriptionRoutes';
-import tokenRoutes from './routes/tokenRoutes';
+// import tokenRoutes from './routes/tokenRoutes';
 
 // Import tasks
 import { startTokenTasks } from './tasks/tokenTasks';
