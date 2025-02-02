@@ -4,7 +4,7 @@
   "description": "Backend for CoinChart Premium application",
   "main": "dist/app.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "tsc -b && node dist/app.js",
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "build": "tsc",
     "postinstall": "npm run build",
