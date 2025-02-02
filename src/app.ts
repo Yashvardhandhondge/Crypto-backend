@@ -13,7 +13,7 @@ import subscriptionRoutes from './routes/subscriptionRoutes';
 // import tokenRoutes from './routes/tokenRoutes';
 
 // Import tasks
-import { startTokenTasks } from './tasks/tokenTasks';
+// import { startTokenTasks } from './tasks/tokenTasks';
 
 
 
@@ -55,7 +55,7 @@ const connectWithRetry = async () => {
       console.log('Connected to MongoDB successfully');
       
       // Start token update tasks
-      startTokenTasks();
+      // startTokenTasks();
       console.log('Token update tasks started');
       
       // Start server
