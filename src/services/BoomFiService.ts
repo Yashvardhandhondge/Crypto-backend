@@ -61,6 +61,7 @@ class BoomFiService {
 
   async handleWebhook(payload: any) {
     try {
+      console.log('Webhook payload:', payload);
       const { paymentId, status, transactionHash } = payload.data;
 
       const payment = await Payment.findOne({ paymentId });
